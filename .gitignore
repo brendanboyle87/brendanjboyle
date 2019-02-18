@@ -1,6 +1,10 @@
 node_modules/
 .cache/
-public/
+public/static/d
+public/admin
+public/manifest.webmanifest
+public/render-page.js.map
+public/icons
 npm-debug.log
 .eslintcache
 .gatsby-context.js
