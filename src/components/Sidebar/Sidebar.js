@@ -7,27 +7,33 @@ import Menu from './Menu';
 import styles from './Sidebar.module.scss';
 
 export const PureSidebar = ({ data, isIndex }) => {
-  const {
-    author,
-    copyright,
-    menu
-  } = data.site.siteMetadata;
+    const {
+        author,
+        copyright,
+        menu
+    } = data.site.siteMetadata;
 
-  return (
-    <div className={styles['sidebar']}>
-      <div className={styles['sidebar__inner']}>
-        <Author author={author} isIndex={isIndex} />
-        <Menu menu={menu} />
-        <Contacts contacts={author.contacts} />
-        <Copyright copyright={copyright} />
-      </div>
-    </div>
-  );
+    return ( <
+        div className = { styles['sidebar'] } >
+        <
+        div className = { styles['sidebar__inner'] } >
+        <
+        Author author = { author }
+        isIndex = { isIndex }
+        /> <
+        Menu menu = { menu }
+        /> <
+        Contacts contacts = { author.contacts }
+        /> <
+        Copyright copyright = { copyright }
+        /> <
+        /div> <
+        /div>
+    );
 };
 
-export const Sidebar = (props) => (
-  <StaticQuery
-    query={graphql`
+export const Sidebar = (props) => ( <
+        StaticQuery query = { graphql `
       query SidebarQuery {
         site {
           siteMetadata {
@@ -44,19 +50,19 @@ export const Sidebar = (props) => (
               bio
               contacts {       
                 twitter
-                telegram
                 github
                 email
-                rss
-                vkontakte
               }
             }
           }
         }
       }
-    `}
-    render={(data) => <PureSidebar {...props} data={data}/>}
-  />
-);
+    ` }
+        render = {
+            (data) => < PureSidebar {...props }
+            data = { data }
+            />} /
+            >
+        );
 
-export default Sidebar;
+        export default Sidebar;
