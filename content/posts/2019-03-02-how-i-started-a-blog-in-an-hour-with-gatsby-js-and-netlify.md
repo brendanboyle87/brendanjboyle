@@ -5,8 +5,8 @@ slug: /posts/starting-a-blog-in-an-hour/
 draft: false
 date: 2019-03-02T19:50:21.798Z
 description: >-
-  Short walkthrough of how to get a blog up and running using Gatsby.js/Netlify
-  and a comparison of this stack to my previous experiences using Wordpress. 
+  Short description how I got this blog up and running using Gatsby.js/Netlify
+  and a comparison of this stack to my previous experience using Wordpress. 
 category: 'Serverless '
 tags:
   - Serverless
