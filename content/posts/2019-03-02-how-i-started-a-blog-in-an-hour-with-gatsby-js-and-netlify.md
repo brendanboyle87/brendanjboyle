@@ -22,3 +22,4 @@ You pick out a webhost that has one click Wordpress deployment (I usually used B
 
 ### Using Gatsby.js and Netlify 
 
+I came across Gatsby.js and Netlify
