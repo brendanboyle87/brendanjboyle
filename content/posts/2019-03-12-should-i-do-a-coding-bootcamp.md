@@ -22,10 +22,9 @@ Part 3: How to make the most of a programming bootcamp
 
 Part 4: How to land a job post-graduation
 
-A lot of people I talk to that are considering joining a bootcamp jump right into asking how to evaluate the available options. This skips an important first step which is evaluating whether you should join a bootcamp at all. I think anyone considering a bootcamp should answer the following three questions:
+A lot of people I talk to that are considering joining a bootcamp jump right into asking how to evaluate the available options. This skips an important first step which is evaluating whether you should join a bootcamp at all. I think anyone considering a bootcamp should answer the following three questions: 1) Do you enjoy programming? 2) Do you want to program for a living? and 3) Is a bootcamp your best option? 
 
-**1. Do you enjoy programming? 
-**
+**1. Do you enjoy programming?**
 
 You may be thinking, how would I know? Well, have you tried some basic tutorials? A common starter is Codeacademy. There are myriad others. As you go through the various tutorials, try to be observant about how you feel. This may sound obvious, but programmers program. It’s a productivity based field, and if you do it for a living, you are expected to produce code day in and day out. As you start your learning journey, ask yourself some questions. Do you find yourself losing track of time as you are practicing? Do you look forward to continuing each day? How does it feel when a lesson clicks and your program runs successfully? 
 
@@ -49,7 +48,6 @@ These tiers emphasize different skills.  What tier you're on can have career imp
 
 **Front-end:**
 
-
 Are you aesthetically inclined?  Artistic? Have design experience? These are skills and traits that will serve you well in front-end development. There are many front-end developers who are more focused on programming than design, so design experience/aptitude can be a leg up in your eventual job search. Interest in this tier is also well suited to the bootcamp path as most bootcamps are heavily focused on this area/the back-end work needed to support web development. This is for practical reasons. There is a high demand for these skills, and while they are extremely difficult to master, there is a lower initial learning curve.
 
 **Back-end:**
@@ -60,23 +58,19 @@ If you think your primary focus is going to be in this area, there are some thin
 
 The above is not meant to discourage but to help people enter the field with eyes wide open. I will also say your initial impression of your preferences may be wrong. I do not fit the description I just gave of a person suited to front-end development, and I now do it on a daily basis. I still sometimes struggle with making things pixel perfect, but I do really enjoy seeing users directly interact with what I create. 
 
-**	3. Is a bootcamp your best option? 
-**
+**3. Is a bootcamp your best option?**
 
 So you enjoy programming, you've gotten a sense of the field, and you want to make it your career. Fantastic! The last step is figuring out how you want to get there. There are multiple paths that can get you there:  (a) self-study;  (b) associate's degree; or (c) bootcamps. Since we are focusing on career transitions, we are going to leave four-year degrees out of the discussion. 
 
-**a) Self-study 
-**
+**a) Self Study**
 
 A large percentage of developers are completely self-taught and have no formal education in the field. It is impossible to know the exact percentage, but many surveys say anywhere from [40% to 60% of programmers are self-trained](https://qz.com/649409/two-out-of-three-developers-are-self-taught-and-other-trends-from-a-survey-of-56033-developers/). Coding has an extremely low barrier to entry. A computer and a text editor are really all you need. There is a wide array of free and low cost resources at your disposal. Based on this, there are many people who discourage people from attending bootcamps. They will say things like ["just build things"](https://techbeacon.com/app-dev-testing/bootcamps-wont-make-you-coder-heres-what-will) and question why you would pay for knowledge that is freely available. They aren't entirely wrong, but take their advice with a grain of salt. A lot of the people who talk like this started coding at a young age and have trouble placing themselves in other people's shoes. You also should not underestimate the difficulty of this path. It can be a long and lonely road. Formal education and/or bootcamps come with built in teachers/mentors along with peers who are going through the same thing you are. You can find many people willing to help you with your self-study, but you will have to work for it. You will also need the discipline to set aside the time you need to learn. Finally, the path to a job may be more difficult. It is especially important on this path to put together a rock-solid portfolio. If you are considering this option, you need to weigh the substantial cost savings with your desired timeline to make your career transition. 
 
-**b) Associate's Degree
-**
+**b) Associates Degree **
 
 I am not super knowledgeable about this path, but I did want to mention it as I think it is an often overlooked and potentially underrated option. There is likely a community college in your area with Associate's Degree programs in different computer science topics. It will be more expensive than self-study but potentially cheaper than a bootcamp depending on the school. The time horizon will be longer, however, as you will likely need to take classes over multiple semesters. Additionally, as community college is an academic setting, some programs may focus on computer science fundamentals as opposed to web development specifically. The fundamentals are invaluable but you may have to supplement your knowledge and portfolio with self-study to make yourself job ready. 
 
-**c) Programming Bootcamps
-**
+**c) Programming Bootcamps**
 
 Finally, let's consider a bootcamp, the path that brought you to this post in the first place. There are many different formats, but I will focus on the full-time bootcamp experience. There are a number of advantages to joining a full-time program. Joining sends a strong signal to future employers that you are committed to learning this new skill and making it your career. A bootcamp sets aside a focused time of intense study. You are provided with teachers/mentors and will have classmates to help you throughout the experience. Over the course of the three month program you will build up a code portfolio to showcase your new skills. A good program will have hiring partners and will be focused on skills those partners value in potential hires. At the end of the program you will be provided an opportunity to meet interested employers one-on-one. Most programs will also provide interview training and career services to both current students and alumni. An established bootcamp will have alumni who have obtained positions with hiring partners and became great employees. This creates a virtuous feedback loop. Bootcamps are likely the best option for an accelerated transition into the field. 
 
