@@ -6,13 +6,16 @@ import Post from '../components/Post';
 const PostTemplate = ({ data }) => {
   const {
     title: title,
-    subtitle: subtitle,
-    twitter: author.contacts.twitter,
-  } = data.site.siteMetadata;
+    subtitle: subtitle } 
+    = data.site.siteMetadata;
+
+  const {
+    twitter: twitter
+  } = data.site.siteMetadata.author.contacts;
 
   const {
     url: url
-  } = data.site
+  } = data.site;
 
   const {
     title: postTitle,
