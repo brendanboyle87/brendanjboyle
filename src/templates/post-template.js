@@ -5,13 +5,19 @@ import Post from '../components/Post';
 
 const PostTemplate = ({ data }) => {
   const {
-    title: siteTitle,
-    subtitle: siteSubtitle
+    title: title,
+    subtitle: subtitle,
+    twitter: author.contacts.twitter,
   } = data.site.siteMetadata;
 
   const {
+    url: url
+  } = data.site
+
+  const {
     title: postTitle,
-    description: postDescription
+    description: postDescription,
+    tags: tags
   } = data.markdownRemark.frontmatter;
 
   const metaDescription = postDescription !== null ? postDescription : siteSubtitle;
@@ -19,6 +25,16 @@ const PostTemplate = ({ data }) => {
   return (
     <Layout title={`${postTitle} - ${siteTitle}`} description={metaDescription}>
       <Post post={data.markdownRemark} />
+      <Share
+				socialConfig={{
+					twitter,
+					config: {
+						url: `${url}${slug}`,
+						title,
+					},
+				}}
+				tags={tags}
+			/>
     </Layout>
   );
 };
