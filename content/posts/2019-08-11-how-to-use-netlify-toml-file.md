@@ -13,11 +13,11 @@ tags:
   - React
   - Netlify
 ---
-I use [Netlify](https://netlify.com) to deploy/host this blog and I have started to use it for personal projects as well. I absolutely love it. It is one of the few products where the experience truly feels seamless. It makes CI/CD simple and lets me focus on the task at hand instead of how to get it deployed. 
+I use [Netlify](https://netlify.com) to deploy/host this blog and I starting to use it for personal projects as well. I absolutely love it. It is one of the few products where the experience truly feels seamless. It makes CI/CD simple and lets me focus on the task at hand instead of how to get it deployed. 
 
-I am using React for my personal apps. My professional experience has all been with Angular/Typescript and I want to improve my skills with another framework/javascript. Netlify promises the ability to deploy a react app in [30 seconds](https://www.netlify.com/blog/2016/07/22/deploy-react-apps-in-less-than-30-seconds/) and they deliver! The default config works great with the out of the box create-react-app. However, there is a note in this blog post about additional configuration that is needed if your application uses React Router. This is important as use of the router is extremely common. 
+I am using React for my personal apps. My professional experience is with Angular/Typescript and I want to improve my skills with another framework/javascript. Netlify promises the ability to deploy a react app in [30 seconds](https://www.netlify.com/blog/2016/07/22/deploy-react-apps-in-less-than-30-seconds/) and they deliver! The default config works great with the out of the box create-react-app. However, there is a note in the above linked post about additional configuration for React Router. This is important because a need for a router is extremely common. 
 
-When using the router netlify needs to understand what resource to point the default route at. There are two ways of configuring this, a ```_redirects``` file or a ```netlify.toml```. The _redirects method is the most straight forward but I decided to use the .toml file. 
+When using the router netlify needs to understand what resource to point the default route at. There are two ways of configuring this, you can either use a ```_redirects``` or a ```netlify.toml``` file. The _redirects method is the most straight forward but I decided to use the .toml file. 
 
 I went for the .toml file because I anticipate having to add other types of configuration in the future. The setup is simple but I did hit one speed bump along the way. I initially only added the redirect configuration to the file and my build started failing. The .toml file overrides all of the build config so you also need to include the build/deployment paths. 
 
