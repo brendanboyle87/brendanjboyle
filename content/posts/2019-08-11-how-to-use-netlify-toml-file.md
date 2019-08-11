@@ -6,7 +6,7 @@ draft: false
 date: 2019-08-11T19:50:21.798Z
 description: >-
 How to configure a react application for netlify deployment with a netlify.toml file. 
-category: 'Netlify'
+category: Netlify
 tags:
   - Serverless
   - React
