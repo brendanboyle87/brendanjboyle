@@ -3,7 +3,7 @@ template: post
 title: 'How to Use the Netlify.Toml file with React'
 slug: /posts/netlify-toml-with-react/
 draft: false
-date: 2019-08-11T19:50:21.798Z
+date: 2019-08-11T19:58:21.798Z
 description: >-
   How to configure a react application for 
   netlify deployment with a netlify.toml file.
@@ -13,7 +13,7 @@ tags:
   - React
   - Netlify
 ---
-I use [Netlify](https://netlify.com) to deploy/host this blog and I starting to use it for personal projects as well. I absolutely love it. It is one of the few products where the experience truly feels seamless. It makes CI/CD simple and lets me focus on the task at hand instead of how to get it deployed. 
+I use [Netlify](https://netlify.com) to deploy/host this blog and I have started to use it for personal projects as well. I absolutely love it. It is one of the few products where the experience truly feels seamless. It makes CI/CD simple and lets me focus on the task at hand instead of how to get it deployed. 
 
 I am using React for my personal apps. My professional experience is with Angular/Typescript and I want to improve my skills with another framework/javascript. Netlify promises the ability to deploy a react app in [30 seconds](https://www.netlify.com/blog/2016/07/22/deploy-react-apps-in-less-than-30-seconds/) and they deliver! The default config works great with the out of the box create-react-app. However, there is a note in the above linked post about additional configuration for React Router. This is important because a need for a router is extremely common. 
 
@@ -41,4 +41,5 @@ Pretty simple, as you can see. Hope this posts helps you get your own app off th
 
 References: 
 [Netlify Redirect Doc](https://www.netlify.com/docs/redirects/)
+
 [Netlify Toml File Doc](https://www.netlify.com/docs/netlify-toml-reference/)
